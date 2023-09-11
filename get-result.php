@@ -1,9 +1,9 @@
 <?php
 
-$pageTitle="Post result";
+$pageTitle="Get result";
 include "view-header.php";
 ?>
-<h1>Post result</h1>h1>
+<h1>Post result</h1>
 
 
 
