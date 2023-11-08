@@ -22,7 +22,16 @@ Click me to display Date and Time.</button>
 </html> 
 
 
+Which of these presentation aids is most likely to be used by someone that has invented a new smartphone case?
+Group of answer choices
 
+Prototype
+
+Graph
+
+Fragrance sample
+
+Handout
 
 
 
