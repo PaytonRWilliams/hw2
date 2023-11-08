@@ -114,7 +114,7 @@ function light(sw) {
 <!DOCTYPE html>
 <html>
 <body>
-
+<h1>My Fifth JavaScript</h1>
 <p id="demo5"></p>
 
 <script>
