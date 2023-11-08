@@ -101,7 +101,7 @@ function light(sw) {
 }
 </script>
 
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+<img id="myImage" src="lightbulb-off.jpg" width="100" height="180">
 
 <p>
 <button type="button" onclick="light(1)">Light On</button>
