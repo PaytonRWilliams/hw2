@@ -6,6 +6,8 @@ include "view-header.php";
 <h1>Home</h1>
 
 
+
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -16,9 +18,19 @@ include "view-header.php";
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
+<p id="demo"></p>
 
- </body>
-</html>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <html>
