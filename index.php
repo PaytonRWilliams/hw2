@@ -16,22 +16,26 @@ include "view-header.php";
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
-<p id="demo"></p>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<p>JavaScript can change the content of an HTML element:</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo">This is a demonstration.</p>
+
+<script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
+}
+</script>
 
 </body>
-</html> 
-
-
-Which of these presentation aids is most likely to be used by someone that has invented a new smartphone case?
-Group of answer choices
-
-Prototype
-
-Graph
-
-Fragrance sample
-
-Handout
+</html>
 
 
 
