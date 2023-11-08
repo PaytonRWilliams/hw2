@@ -24,7 +24,21 @@ Click me to display Date and Time.</button>
 </html> 
 
 
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My Second JavaScript</h1>
+<h2>Use JavaScript to Change Text</h2>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
 
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+</body>
+</html>
 
 
 
@@ -36,7 +50,7 @@ Click me to display Date and Time.</button>
 <html>
 <body>
 
-<h1>My Second JavaScript</h1>
+<h1>My Third JavaScript</h1>
 
 <p>JavaScript can change the content of an HTML element:</p>
 
