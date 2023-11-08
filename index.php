@@ -24,21 +24,6 @@ Click me to display Date and Time.</button>
 </html> 
 
 
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Use JavaScript to Change Text</h2>
-<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
-
-<p id="demo"></p>
-
-<script>
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-</script> 
-
-</body>
-</html>
 
 
 
@@ -74,13 +59,13 @@ function myFunction() {
 
 <h1>My First JavaScript</h1>
 
-<p id="demo">JavaScript can change the style of an HTML element.</p>
+<p id="demo2">JavaScript can change the style of an HTML element.</p>
 
 <script>
 function myFunction() {
-  document.getElementById("demo").style.fontSize = "25px"; 
-  document.getElementById("demo").style.color = "red";
-  document.getElementById("demo").style.backgroundColor = "yellow";        
+  document.getElementById("demo2").style.fontSize = "25px"; 
+  document.getElementById("demo2").style.color = "red";
+  document.getElementById("demo2").style.backgroundColor = "yellow";        
 }
 </script>
 
@@ -124,22 +109,7 @@ function light(sw) {
 </body>
 </html>
 
-<!DOCTYPE html>
-<html>
-<body>
 
-<h2>JavaScript Math.random()</h2>
-
-<p>Math.random() returns a random number between 0 (included) and 1 (excluded):</p>
-
-<p id="demo"></p>
-
-<script>
-document.getElementById("demo").innerHTML = Math.random();
-</script>
-
-</body>
-</html>
 
 
 
