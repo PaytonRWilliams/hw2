@@ -39,13 +39,13 @@ Click me to display Date and Time.</button>
 
 <p>JavaScript can change the content of an HTML element:</p>
 
-<button type="button" onclick="myFunction()">Click Me!</button>
+<button type="button" onclick="myFunction1()">Click Me!</button>
 
-<p id="demon">This is a demonstration.</p>
+<p id="demo">This is a demonstration.</p>
 
 <script>
-function myFunction() { 
-  document.getElementById("demon").innerHTML = "Hello JavaScript!";
+function myFunction1() { 
+  document.getElementById("demo").innerHTML = "Hello JavaScript!";
 }
 </script>
 
