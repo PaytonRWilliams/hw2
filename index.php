@@ -27,7 +27,7 @@ Click me to display Date and Time.</button>
 <!DOCTYPE html>
 <html>
 <body>
-<h1>My Second JavaScript</h1>
+
 <h2>Use JavaScript to Change Text</h2>
 <p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
 
@@ -89,6 +89,40 @@ function myFunction() {
 </body>
 </html>
 
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "pic_bulboff.gif"
+  } else {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+
+</body>
+</html>
 
 
 
