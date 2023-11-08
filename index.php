@@ -15,10 +15,10 @@ include "view-header.php";
 <h1>My First JavaScript</h1>
 
 <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
+onclick="document.getElementById('demo1').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
-<p id="demo"></p>
+<p id="demo1"></p>
 
 </body>
 </html> 
