@@ -35,7 +35,7 @@ Click me to display Date and Time.</button>
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
+<h1>My Second JavaScript</h1>
 
 <p>JavaScript can change the content of an HTML element:</p>
 
@@ -59,7 +59,7 @@ function myFunction1() {
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
+<h1>My Third JavaScript</h1>
 
 <p id="demo2">JavaScript can change the style of an HTML element.</p>
 
@@ -86,7 +86,7 @@ function myFunction() {
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
+<h1>My Fourth JavaScript</h1>
 <p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
 
 <script>
@@ -108,6 +108,23 @@ function light(sw) {
 <button type="button" onclick="light(0)">Light Off</button>
 </p>
 
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo5"></p>
+
+<script>
+document.getElementById("demo5").innerHTML = "Hello JavaScript!";
+</script>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<p>A browser without support for JavaScript will show the text written inside the noscript element.</p>
+ 
 </body>
 </html>
 
