@@ -93,9 +93,9 @@ function myFunction() {
 function light(sw) {
   var pic;
   if (sw == 0) {
-    pic = "pic_bulboff.gif"
+    pic = "lightbulb-off.jpg"
   } else {
-    pic = "pic_bulbon.gif"
+    pic = "lightbulb-on.jpg"
   }
   document.getElementById('myImage').src = pic;
 }
