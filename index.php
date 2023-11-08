@@ -16,11 +16,15 @@ include "view-header.php";
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
+
+ </body>
+</html>
+
 <!DOCTYPE html>
 <html>
 <body>
 
-<h1>My First JavaScript</h1>
+<h1>My Second JavaScript</h1>
 
 <p>JavaScript can change the content of an HTML element:</p>
 
